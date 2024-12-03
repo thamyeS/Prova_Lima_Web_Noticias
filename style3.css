@@ -1,0 +1,87 @@
+body {
+    background: url('https://static.vecteezy.com/ti/vetor-gratis/p1/7660912-fundo-roxo-com-linha-curva-e-textura-grains-design-ilustracao-eps10-vetor.jpg') no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: black;
+
+}
+
+section {
+    padding: 2rem;
+    margin: 1rem;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    color: white;
+}
+
+h2 {
+    margin-bottom: 1rem;
+}
+
+/*Sobre Mim*/
+
+.sobre-mim {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.foto-perfil {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #333;
+}
+
+.foto-perfill {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #333;
+}
+
+
+.sobre-informacoes {
+    flex: 1;
+}
+
+.sobre-informacoes {
+    margin-bottom: 0.5rem;
+}
+
+.sobre-informacoes {
+    font-size: 1rem;
+    color: #555;
+}
+
+/*Projetos*/
+
+.cards {
+    display: flex;
+    gap: 1rem;
+}
+
+.card {
+    background: #f4f4f4;
+    border-radius: 8px;
+    padding: 1rem;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0,3s ease, box-shadow 0.3 ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
